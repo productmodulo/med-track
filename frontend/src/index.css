@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pastel-purple: #F3E5F5;
+  --color-pastel-blue: #E1F5FE;
+  --color-pastel-pink: #FCE4EC;
+  --color-pastel-green: #E8F5E9;
+  --color-pastel-yellow: #FFF9C4;
+}
+
+/* 커스텀 스타일 */
+body {
+  @apply bg-gradient-to-br from-pastel-purple to-pastel-blue min-h-screen;
+}
